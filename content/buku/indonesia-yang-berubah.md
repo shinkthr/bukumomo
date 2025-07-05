@@ -1,6 +1,6 @@
 ---
 date: '2025-07-05T10:52:05+07:00'
-draft: true
+draft: false
 title: 'Indonesia Yang Berubah: Kumpulan Wawancara Ekonomi Politik'
 cover: 'https://res.cloudinary.com/dveidveag/image/upload/v1751687584/tokohitam_bookshop_1747220037_3632267395307228551_2108852657_ccrh57.webp'
 price: 90000
