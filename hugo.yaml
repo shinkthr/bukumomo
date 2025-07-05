@@ -1,0 +1,106 @@
+# Configuration
+baseURL: "https://kodedarihati.com/"
+title: "Hextra"
+theme: hextra
+
+enableRobotsTXT: true
+# Parse Git commit
+enableGitInfo: true
+# enableEmoji: false
+hasCJKLanguage: true
+
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: id
+languages:
+  id:
+    languageName: Indonesia
+    weight: 1
+    title: Bukumomo
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.146.0"
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
+
+enableInlineShortcodes: true
+
+params:
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: false
+    base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+
+  toc:
+    displayTags: true
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  blog:
+    list:
+      displayTags: true
+      pageSize: 15
+
+  comments:
+    enable: false
+    type: giscus
+
+    # https://giscus.app/
+    giscus:
+      repo: imfing/hextra
+      repoId: R_kgDOJ9fJag
+      category: General
+      categoryId: DIC_kwDOJ9fJas4CY7gW
+      # mapping: pathname
+      # strict: 0
+      # reactionsEnabled: 1
+      # emitMetadata: 0
+      # inputPosition: top
+      # lang: en
+      # theme: noborder_dark

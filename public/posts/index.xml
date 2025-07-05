@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bukumomo – Posts</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Bukumomo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 03 Jul 2025 09:46:46 +0700</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cerita Hampa</title>
+      <link>http://localhost:1313/posts/cerita-hampa/</link>
+      <pubDate>Thu, 03 Jul 2025 09:46:46 +0700</pubDate>
+      
+      <guid>http://localhost:1313/posts/cerita-hampa/</guid>
+      <description>
+        
+        
+        &lt;p&gt;ini adalah isi cerita hampa&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

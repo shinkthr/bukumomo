@@ -1,0 +1,125 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bukumomo – Hextra Theme</title>
+    <link>http://localhost:1313/buku/</link>
+    <description>Recent content in Hextra Theme on Bukumomo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    
+	  <atom:link href="http://localhost:1313/buku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cerita Hampa 8</title>
+      <link>http://localhost:1313/buku/cerita-hampa-8/</link>
+      <pubDate>Thu, 03 Jul 2025 10:43:18 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-8/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa 7</title>
+      <link>http://localhost:1313/buku/cerita-hampa-7/</link>
+      <pubDate>Thu, 03 Jul 2025 10:43:14 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-7/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa 6</title>
+      <link>http://localhost:1313/buku/cerita-hampa-6/</link>
+      <pubDate>Thu, 03 Jul 2025 10:43:10 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-6/</guid>
+      <description>
+        
+        
+        &lt;p&gt;ini berharga 12500&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa 5</title>
+      <link>http://localhost:1313/buku/cerita-hampa-5/</link>
+      <pubDate>Thu, 03 Jul 2025 10:43:06 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-5/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa 4</title>
+      <link>http://localhost:1313/buku/cerita-hampa-4/</link>
+      <pubDate>Thu, 03 Jul 2025 10:43:02 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-4/</guid>
+      <description>
+        
+        
+        &lt;p&gt;ini berharga 40500&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa 3</title>
+      <link>http://localhost:1313/buku/cerita-hampa-3/</link>
+      <pubDate>Thu, 03 Jul 2025 10:42:59 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-3/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa 2</title>
+      <link>http://localhost:1313/buku/cerita-hampa-2/</link>
+      <pubDate>Thu, 03 Jul 2025 10:42:56 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa-2/</guid>
+      <description>
+        
+        
+        &lt;p&gt;askjfgldskhlkh lksdhjfvlhdsjk dnlskdhjfvldshj djlkfgdslkhfg&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Cerita Hampa</title>
+      <link>http://localhost:1313/buku/cerita-hampa/</link>
+      <pubDate>Thu, 03 Jul 2025 10:42:37 +0700</pubDate>
+      
+      <guid>http://localhost:1313/buku/cerita-hampa/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

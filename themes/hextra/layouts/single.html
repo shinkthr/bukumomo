@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <div class='single'>
+    <article class="article">
+      <main class="">
+        <br class="" />
+        {{ if .Title }}<h1 class="article-title">{{ .Title }}</h1>{{ end }}
+        <div class="article-image">
+          <div class="hero-image-stack">
+            <div class="book-cover book-cover-1">
+              <img src="{{ .Page.Params.cover }}" alt="Book Cover Hero {{ .Title }}" class="" />
+            </div>
+            <div class="book-cover book-cover-2">
+              <div class="book-overlay"></div>
+            </div>
+            <div class="book-cover book-cover-3">
+              <div class="book-overlay"></div>
+            </div>
+            <div class="book-cover book-cover-4">
+              <div class="book-overlay"></div>
+            </div>
+          </div>
+        </div>
+        <div class="article-content">
+          {{ .Content }}
+        </div>
+        <div class=""></div>
+      </main>
+    </article>
+  </div>
+{{ end }}

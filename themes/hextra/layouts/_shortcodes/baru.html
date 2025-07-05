@@ -1,0 +1,17 @@
+{{ range first 15 (where .Site.RegularPages "Type" "buku") }}
+  <div class="book-card">
+    <a href="{{ .Permalink }}">
+      <div class="book-card__image-wrapper">
+        <img src="{{ .Params.cover }}" alt="{{ .Title }}" class="book-card__image" />
+        <div class="book-card__price">{{ .Params.price }}</div>
+      </div>
+      <h3 class="book-card__title">{{ .Title }}</h3>
+      <span class="book-card__author">{{ .Params.author }}</span>
+      <div class="book-card__description">{{ .Content | truncate 200 }}</div>
+    </a>
+    <a href="https://wa.me/6287888068764?text='Hai, mau beli - {{ .Title }}'" class="btn btn-dark book-card__button">
+      <img src="https://res.cloudinary.com/dveidveag/image/upload/w_20/q_auto/f_auto/v1751612846/buy-cart-market-svgrepo-com_bwwmjd.svg" alt="cart icon">
+      <span>Beli</span>
+    </a>
+  </div>
+{{ end }}
